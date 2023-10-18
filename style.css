@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    
+    background:url("https://img.freepik.com/premium-photo/mockup-interior-wall-living-area-with-cabinet-empty-white-wall-background_41470-3971.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* max-width:40%; */
+    width: fit-content;
+    align-items: center;
+    gap: 30px;
+    padding:50px 30px;
+    margin: 10px;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.778);
+    color:white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+
+}
+.timer{
+    font-size: 60px;
+    font-weight: 800;
+}
+button{
+
+    padding:15px;
+    border-radius: 50%;
+    font-size: 30px;
+    outline: none;
+    border:2px solid white;
+
+}
+.time-format{
+    color:rgb(189, 186, 186)
+}
+@media screen  and (max-width:500px){
+    .timer{
+        font-size: 40px;
+    }
+    button{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+@media  (max-width:330px) {
+    .timer{
+        font-size: 26px;
+    }
+    button{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .time-format{
+        font-size: 14px;
+    }
+    
+}
